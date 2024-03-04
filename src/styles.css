@@ -191,16 +191,16 @@ justify-content: center
     background-color: var(--c-bg-btn-secondary);
     border-radius: var(--br-btn-primary);
     margin-top: var(--spacing-small);
+    height: 3rem;
 }
 .email__inputs-input{
     border-style: none;
     background-color: var(--c-bg-btn-secondary);
-    height: var(--spacing-small);
     border-radius: var(--br-btn-primary);
     font-size: var(--fs-small);
     font-weight: 500;
     width: 15rem;
-    margin-left: 1rem;
+    height: 100%;
 }
 .email__inputs-submit{
     border-style: none;
@@ -286,6 +286,7 @@ justify-content: center
         flex-direction: column;
         background-color: var(--c-bg-body);
         width: 80%;
+        height: var(--spacing-large);
     }
     .email__inputs-input{
         margin: 0 0 0 0;
@@ -294,5 +295,6 @@ justify-content: center
     .email__inputs-submit{
         width: 100%;
         margin-top: var(--spacing-verysmall);
+        height: 6rem;
     }
 }
