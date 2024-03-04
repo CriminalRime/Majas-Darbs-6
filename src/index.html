@@ -8,14 +8,115 @@
     <link href="/favicon.png" rel="icon" type="image/x-icon">
     <link href="./styles.css" rel="stylesheet">
     <title> Typescript Boilerplate </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
-
-<section>
-    <h1> This is a Typescript Boilerplate! </h1>
-    <img alt="" src="assets/images/typescript-icon.svg">
+<nav class="navbar row">
+    <div class="navbar__logo-wrapper">
+        <img src="assets/images/logo.svg" alt="Logo" class="navbar__logo">
+    </div>
+    <div class="navbar__links row">
+        <a href="#"> Home </a>
+        <a href="#"> Features </a>
+        <a href="#"> Showcase </a>
+        <a href="#"> Pricing </a>
+    </div>
+    <div class="navbar__signIn-button-wrapper">
+        <button class="navbar__signIn-button">Sign In</button>
+    </div>
+</nav>
+<section class="hero row">
+    <div class="hero__info column">
+        <h1 class="hero__info-title"> Manage Payroll <br> Like and Expert </h1>
+        <p class="hero__info-description"> Payna is helping you to setting up the payroll without
+            <br> required any finance skills or knowledge before </p>
+        <div class="hero__info-button-wrapper">
+            <button class="hero__info-button button buttonSecondary"> Get Started</button>
+        </div>
+    </div>
+    <div class="hero__image-wrapper column">
+        <img src="assets/images/hero.svg" alt="Picture of a girl in glasses" class="hero__image">
+    </div>
 </section>
-
-<script src="/scripts.js"></script>
+<section class="trusted row">
+    <p class="trusted__txt">Trusted by <br>Global Companies</p>
+    <div class="trusted__images row">
+        <img src="assets/images/apple.svg" alt="Logo" class="navbar__logo">
+        <img src="assets/images/Group.svg" alt="Logo" class="navbar__logo">
+        <img src="assets/images/slack.svg" alt="Logo" class="navbar__logo">
+        <img src="assets/images/spotify.svg" alt="Logo" class="navbar__logo">
+        <img src="assets/images/google.svg" alt="Logo" class="navbar__logo">
+    </div>
+</section>
+<section class="work column">
+    <p class="work__better">WORK BETTER</p>
+    <h2 class="work__forYour">For Your Business</h2>
+    <p class="work__info">We did research what your company needs and <br>
+        here we are providing all of them just for you</p>
+</section>
+<section class="boxes column">
+    <div class="boxes__holder row">
+        <div class="box row">
+            <img src="assets/images/Icon1.svg" alt="0">
+            <div class="box__text column">
+                <p class="box__text-title">Share Insights</p><p class="box__text-info">Working together with your <br>
+                team to make decisions</p>
+            </div>
+        </div>
+        <div class="box row">
+            <img src="assets/images/Icon2.svg" alt="0">
+            <div class="box__text column">
+                <p class="box__text-title">Track Leads</p><p class="box__text-info">See where your money goes <br>
+                and comes in business</p>
+            </div>
+        </div>
+        <div class="box row">
+            <img src="assets/images/Icon3.svg" alt="0">
+            <div class="box__text column">
+                <p class="box__text-title">Offline Mode</p><p class="box__text-info">Use the feature while off <br>
+                from internet? sure can</p>
+            </div>
+        </div>
+    </div>
+    <div class="boxes__holder row">
+        <div class="box row">
+            <img src="assets/images/Icon4.svg" alt="0">
+            <div class="box__text column">
+                <p class="box__text-title">Kanban Mode</p><p class="box__text-info">Organize the report that <br>
+                easy to be understand</p>
+            </div>
+        </div>
+        <div class="box row">
+            <img src="assets/images/Icon5.svg" alt="0">
+            <div class="box__text column">
+                <p class="box__text-title">Reward System</p><p class="box__text-info">Motivate your team working <br>
+                harder and receive a gift</p>
+            </div>
+        </div>
+        <div class="box row">
+            <img src="assets/images/Icon6.svg" alt="0">
+            <div class="box__text column">
+                <p class="box__text-title">189 Country</p><p class="box__text-info">Working together worldwide <br>
+                people from anywhere</p>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="video row">
+    <img src="assets/images/video.svg" alt="video">
+    <div class="video__texts column">
+        <p class="video__texts-title1">SAVE MORE TIME</p>
+        <h3 class="video__texts-title2">And Boost Productivity</h3>
+        <p class="video__texts-info">Your employees can bring any success into your <br>
+            business, so we need to take care of them</p>
+        <form class="video__email row">
+            <label class="email__inputs row">
+                <input type="email" required class="email__inputs-input" placeholder="Email Address"> <button type="submit" class="email__inputs-submit">Get Started</button>
+            </label>
+        </form>
+    </div>
+</section>
 </body>
 </html>
